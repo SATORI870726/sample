@@ -1,0 +1,84 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding:60px;
+  font-size: 50px;
+}
+
+.header p {
+  text-align: center;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.header li {
+  /* background: pink; */
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 80px;
+}
+
+.header a {
+  /* background: pink; */
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 100px;
+  display: block;
+}
+
+.aboutme {
+  display: flex;
+}
+
+.image {
+  flex: 3;
+  margin: 150px;
+}
+
+.text {
+  flex: 5;
+  /* padding: 0.2rem; */
+  /* margin-top: 30px; */
+  padding: 100px;
+  line-height: 3em;
+}
+
+
+.myworks {
+  display: flex;
+}
+
+.amechan {
+  flex: 3;
+  margin-left: auto;
+  margin: 150px;
+}
+
+.works {
+  flex: 5;
+  padding: 100px;
+  line-height: 3em;
+}
+
+
+footer {
+  padding: 50px;
+  height: 100px;
+  text-align: center;
+  background: rgb(165, 161, 161);
+}
